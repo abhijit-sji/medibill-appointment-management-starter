@@ -1,0 +1,30 @@
+{
+  "slug": "appointment-management",
+  "displayName": "Appointment Management",
+  "version": "1.0.0",
+  "description": "Full-featured appointment scheduling system with calendar views, availability management, appointment types, operatories, and slot-based booking. Supports NexHealth sync and Google Calendar integration.",
+  "icon": "CalendarDays",
+  "category": "Scheduling",
+  "fileCount": 24,
+  "tableCount": 5,
+  "componentCount": 10,
+  "hookCount": 4,
+  "edgeFunctionCount": 2,
+  "features": [
+    "Interactive calendar",
+    "Drag-and-drop scheduling",
+    "Availability templates",
+    "Appointment types",
+    "Operatory management",
+    "Slot-based booking"
+  ],
+  "techTags": [
+    "@tanstack/react-query",
+    "Supabase",
+    "date-fns",
+    "recharts"
+  ],
+  "status": "stable",
+  "lastUpdated": "2026-03-13",
+  "manifestPath": "src/modules/appointment-management/manifest.json"
+}
